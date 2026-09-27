@@ -103,7 +103,7 @@ import kagglehub
 # - https://www.kaggle.com/models/google/bert/tensorFlow2/answer-equivalence-bem
 # 
 # You would use the following handle: `google/bert/tensorFlow2/answer-equivalence-bem`
-handle = '<KAGGLE_USERNAME>/<MODEL>/<FRAMEWORK>/<VARIATION>'
+handle = '<auraecosystem>/<gemma4>/<flax>/<7b>'
 local_model_dir = 'path/to/local/model/dir'
 
 kagglehub.model_upload(handle, local_model_dir)
